@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color:#ffff;
+    font-size:12pt;
 }
 .container {
     margin:0 15%;
@@ -39,7 +40,7 @@ img {
     grid-column-gap: 15px;
     grid-template-areas:
     "logo logo logo . . . . . . . . ."
-    "logo logo logo . nav nav nav nav nav nav nav nav"
+    "logo logo logo . nav nav nav nav nav nav nav nav";
 }
 
 #top-left {
@@ -112,7 +113,7 @@ img {
 #postheader2 {
     display:grid;
     grid-template-areas:
-    "image image about"
+    "image image about";
 }
 #postheader2-left {
     grid-area: image;
@@ -152,12 +153,4 @@ img {
   display:grid;
   grid-column-gap: 15px;
   grid-template-columns: 3fr 3fr 6fr;
-}
-#footer-left {
-}
-#footer-middle {
-}
-#bottom-social-media {
-    justify-self:end;
-    align-self: center;
 }
