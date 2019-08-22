@@ -9,32 +9,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </head>
 
 <body>
-    <div id='top' class='container'>
+    <div id='top' class='container header'>
         <div id='top-left'>
             <a href="home.html"><img src="images/Computer-Internet-Logo-4.png" title="" alt="Logo"></a>
         </div>
         <nav id="top-nav" class="menu">
-            <ul>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> 
+            <ul class='menu'>
                 <li><a href="home.html#postheader2-right">About</a></li>
                 <li><a href="technology.html">Technology</a></li>
                 <li><a href="testing.html">Testing</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
     <div id='header-banner' class='banner'>
         <h1>Resources</h1>
     </div>
-    <div id='postheader' class='container'>
-        <div id='postheader-left'>
-            <a href="pdf/test.pdf">Test</a>
+    <div id='postheader-resources' class='container'>
+        <div id='postheader-resources-grid-left'>
+            <ul>
+                <li><a href="pdf/Film Riding Leaf Seal - GT2010-23629.pdf">Film Riding Leaf Seal - GT2010-23629</a></li>
+                <li><a href="pdf/NYSERDA No. 9887 final report 4-14-09.pdf">NYSERDA No. 9887 final report 4-14-09</a></li>
+                <li><a href="pdf/Bath FRPALS ASME GT2019-90991.pdf">Bath FRPALS ASME GT2019-90991</a></li>
+                <li><a href="pdf/GT2014-27046.pdf">GT2014-27046</a></li>
+                <li><a href="pdf/AIAA-2005-3985.pdf">AIAA-2005-3985</a></li>
+                <li><a href="pdf/AIAA-2009-5167.pdf">AIAA-2009-5167</a></li>
+                <li><a href="pdf/Film Riding PALS Proof of Concept AIAA 2016-4920.pdf">Film Riding PALS Proof of Concept AIAA 2016-4920</a></li>
+            </ul>
+        </div>
+        <div id='postheader-resources-grid-right'>
+            <img src="images/testing/pals2.png" alt="rotor shaft">
         </div>
     </div>
     <div id='footer' class='banner'>
